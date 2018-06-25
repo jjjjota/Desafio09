@@ -1,0 +1,80 @@
+/*
+#686963 letras/background-footer
+#E56353 background
+#707070 background
+#FAFAFA backgrounds light
+*/
+
+/* GENERAL ****************************************************************************************/
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #686963;
+}
+
+h1 {
+  margin: 0;
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 70px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.highlighted {
+  font-weight: 700;
+}
+
+li:hover {
+  font-weight: 700;
+}
+
+/* NAVBAR *****************************************************************************************/
+.navbar {
+  border: none;
+
+  box-shadow: none;
+}
+
+/* HEADER *****************************************************************************************/
+header {
+  padding: 120px 20px 70px 20px;
+  width: 100%;
+
+  background-color: #E56353;
+  color: #FFF;
+  text-align: center;
+}
+
+/* BLOG *******************************************************************************************/
+.blog__inner {
+  display: table-cell;
+  padding: 70px 10%;
+}
+
+.blog__inner--dark {
+  background-color: #707070;
+  color: #FFF;
+}
+
+.blog__inner__background--top {
+  background-image: url(/assets/img/img-history.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blog__inner__background--bottom {
+  background-image: url(assets/img/our-tomatoes.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* TEAM *******************************************************************************************/
+#team header {
+  padding-top: 70px;
+}
