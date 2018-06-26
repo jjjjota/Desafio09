@@ -67,11 +67,11 @@ section#blog h1 {
 }
 
 .blog__inner__background--top {
-  background-image: url(C:\Users\ctrl-\Documents\Front-End\Desafio09\public\assets\img\img-history.png);
+  background-image: url(../assets/img/img-history.png);
 }
 
 .blog__inner__background--bottom {
-  background-image: url(C:\Users\ctrl-\Documents\Front-End\Desafio09\public\assets\img\our-tomatoes.png);
+  background-image: url(../assets/img/our-tomatoes.png);
 }
 
 /* TEAM *******************************************************************************************/
@@ -94,6 +94,7 @@ section#team .container-fluid{
   padding-top: 2vw;
   height: 400px;
 }
+
 
 /* SHOP *******************************************************************************************/
 section#shop {
@@ -126,6 +127,11 @@ footer {
   text-align: center;
 }
 
+.footer__brand img {
+  width: 100%;
+  height: auto;
+}
+
 .footer__rrss {
   padding-top: 20px;
 }
@@ -145,11 +151,19 @@ footer {
   font-size: 3em;
 }
 
-@media only screen and (max-width : 767px) {
+@media only screen and (max-width : 992px) {
   .footer__rrss__icon {
     width: 50px;
     height: 50px;
+    padding-top: 10px;
+
     font-size: 2em;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .footer__links ul {
+    text-align: center;
   }
 }
 

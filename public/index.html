@@ -22,6 +22,7 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:200,700" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"/>
 
 </head>
 
@@ -109,13 +110,11 @@
       <h1 class="highlighted">NOSOTROS</h1>
     </header>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
 
-        <div class="team__inner col-lg-offset-2 col-lg-3 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-10">
-          <img class="img-responsive" src="assets/img/javiera-kunstmann.png" alt="Javiera Kunstmann">
-        </div>
-        <div class="team__inner col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5 col-xs-offset-1 col-xs-10">
+        <img class="img-responsive col-lg-offset-2 col-lg-3 col-md-offset-1 col-md-4 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-5" src="assets/img/javiera-kunstmann.png">
+        <div class="team__inner    col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-5 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-10">
           <h2 class="highlighted">Javiera Kunstmann</h2>
           <p>
             Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó convertido en un monstruo
@@ -131,10 +130,8 @@
           </p>
         </div>
 
-        <div class="team__inner col-lg-offset-2 col-lg-3 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-10">
-          <img class="img-responsive" src="assets/img/roberto-pacheco.png" alt="Roberto Pacheco">
-        </div>
-        <div class="team__inner col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-5 col-xs-offset-1 col-xs-10">
+        <img class="img-responsive col-lg-offset-2 col-lg-3 col-md-offset-1 col-md-4 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-5" src="assets/img/roberto-pacheco.png" alt="Roberto Pacheco">
+        <div class="team__inner    col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-5 col-sm-offset-0 col-sm-6 col-xs-offset-1 col-xs-10">
           <h2 class="highlighted">Roberto Pacheco</h2>
           <p>
             Una mañana, tras un sueño intranquilo, Gregorio Samsa se despertó convertido en un monstruo
@@ -156,19 +153,36 @@
   </section>
 
   <!-- SHOP --------------------------------------------------------------------------------------->
-  <section id="shop">
-
+  <section id="shop" class="container-fluid">
+    <h1 class="highlighted">¿Tomates para tu negocio?</h1>
+    <button type="submit" class="btn shop__btn highlighted">CLICK AQUÍ</button>
   </section>
 
   <!-- FOOTER ------------------------------------------------------------------------------------->
-  <footer>
-    <div class="brand">
-    </div>
+  <footer class="container-fluid">
+    <div class="row">
 
-    <address>
-    </address>
+      <div class="footer__brand col-lg-offset-1 col-lg-2 col-md-offset-1 col-md-2 col-sm-offset-3 col-sm-6 col-xs-offset-2 col-xs-8">
+        <img class="img-responsive" src="assets/img/logo-footer.png" alt="logo tiatomate">
+      </div>
+      <span class="             col-sm-offset-3 col-xs-offset-2"></span>
 
-    <div class="links">
+      <div class="footer__rrss  col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-6 col-xs-offset-0 col-xs-12">
+        <a href="#"><i class="footer__rrss__icon fab fa-facebook-f"></i></a>
+        <a href="#"><i class="footer__rrss__icon fab fa-instagram"></i></a>
+        <a href="#"><i class="footer__rrss__icon fab fa-twitter"></i></a>
+      </div>
+      <span class="             col-sm-offset-0 col-xs-offset-0"></span>
+
+      <div class="footer__links col-lg-offset-1 col-lg-3 col-md-offset-1 col-md-3 col-sm-offset-0 col-sm-3 col-xs-offset-0 col-xs-12">
+        <ul>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#shop">Contacto</a></li>
+        </ul>
+      </div>
+
     </div>
   </footer>
 
