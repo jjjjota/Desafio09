@@ -51,7 +51,6 @@ header {
 
 /* BLOG *******************************************************************************************/
 .blog__inner {
-  display: table-cell;
   padding: 70px 10%;
 }
 
@@ -61,14 +60,14 @@ header {
 }
 
 .blog__inner__background--top {
-  background-image: url(/assets/img/img-history.png);
+  background-image: url(C:\Users\ctrl-\Documents\Front-End\Desafio09\public\assets\img\img-history.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .blog__inner__background--bottom {
-  background-image: url(assets/img/our-tomatoes.png);
+  background-image: url(C:\Users\ctrl-\Documents\Front-End\Desafio09\public\assets\img\our-tomatoes.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
