@@ -60,3 +60,31 @@
     ![Mockup](mock-up/mobile_team.jpeg)
   - Sección "Footer"
     ![Mockup](mock-up/mobile_footer.jpeg)
+
+
+## ESTRUCTURA BEM
+
+- navbar
+  - navbar__brand
+  - navbar__item
+
+- header
+
+- about
+  - about__inner
+    - about__inner--dark
+  - about__inner__background--top
+  - about__inner__background--bottom
+
+- team
+  - team__header
+  - team__inner
+  - team__img
+
+- shop
+
+- footer
+  - footer__brand
+  - footer__rrss
+    - footer__rrss__icon
+  - footer__links
