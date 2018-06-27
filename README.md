@@ -1,6 +1,8 @@
 # DESAFÍO 09
 
-## Requisitos Generales
+## REQUISITOS
+
+### Requisitos Generales:
 
 - Crear una página web de tipo landing page que contenga:
   - Una barra de navegación
@@ -12,13 +14,13 @@
   - Un footer
 - Debe ser responsive
 
-## Requisitos Específicos
+### Requisitos Específicos:
 
 - Secciones con grilla &rarr; *usar bootstrap*
 - Íconos de redes sociales con contenedor redondo &rarr; *usar font-awesome*
 - Párrafos sin contenido &rarr; *usar extracto de "La Metamorfosis"*
 
-## Requisitos Visuales
+### Requisitos Visuales:
 
 - Layout:
   - Utilizar Bootstrap
@@ -45,3 +47,16 @@
 
 - Íconos:
   - Buscar similares al mock-up en "font-awesome"
+
+## SKETCH
+
+### Versión desktop:
+  ![Mockup](mock-up/sketch.jpeg)
+### Versión mobile:
+
+  - Sección "About"
+    ![Mockup](mock-up/mobile_about.jpeg)
+  - Sección "Team"
+    ![Mockup](mock-up/mobile_team.jpeg)
+  - Sección "Footer"
+    ![Mockup](mock-up/mobile_footer.jpeg)
